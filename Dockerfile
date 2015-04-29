@@ -6,4 +6,4 @@ RUN apt-get update && \
                 qtdeclarative5-dev qt5-default \
                 libxml2-dev postgresql-9.3
 
-ADD libpq.pc /usr/lib/pkgconfig
+ADD libpq.pc /usr/lib/pkgconfig/
